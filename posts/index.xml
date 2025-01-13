@@ -6,14 +6,14 @@
     <description>Recent content in Posts on 王宇萌</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2025 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Sample Post</title>
+      <title>books</title>
       <link>http://localhost:1313/posts/sample-post/</link>
-      <pubDate>Sun, 08 Dec 2024 00:00:00 +0800</pubDate>
+      <pubDate>Wed, 08 Jan 2025 00:00:00 +0800</pubDate>
       <guid>http://localhost:1313/posts/sample-post/</guid>
-      <description>&lt;p&gt;hello! this is a lil test sample blog post :)&lt;br&gt;&#xA;it seems to work inconsistently&lt;/p&gt;</description>
+      <description>&lt;p&gt;a note or two about the books i&amp;rsquo;ve been reading, so i remember what i&amp;rsquo;ve read, and what i thought about them.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
