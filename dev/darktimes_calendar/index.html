@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="a daily calendar event based on sunset and sunrise">  
+
+  <title>
+    
+      darktimes calendar
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.a0b8856c4bddde5d21d59e646953a2506073d63ef8299c480260536f16c3a50d1c325c1a927e89afb0590c02e4275ad670a285cbd350355b6cf902833c8a06d9.css" integrity="sha512-oLiFbEvd3l0h1Z5kaVOiUGBz1j74KZxIAmBTbxbDpQ0cMlwakn6Jr7BZDALkJ1rWcKKFy9NQNVts&#43;QKDPIoG2Q==" />
+  
+</head>
+<body a="auto">
+        <main class="page-content" aria-label="Content">
+            <div class="w">
+<article>
+    <div class="post-meta">
+    <a href="/">← back</a>
+
+    <div style="display: flex; flex-direction: column; align-items: flex-end;">
+        <time datetime="2024-02-23 00:00:00 &#43;0800 &#43;0800">
+            2024-02-23
+        </time>
+        <div style="text-align: end; color: slategray"> JS, Apps Script</div>
+    </div>
+</div>
+
+    <h1>darktimes calendar</h1>
+
+    
+
+    <p>todo: add github link</p>
+<p>An embarrassingly simple script, but something that I still use every day.</p>
+<p>I would often forget about the sun during the day, especially if I was away from a window. I wrote a script in Google&rsquo;s Apps Script platform that <a href="https://sunrisesunset.io/api/">looks up the sunset and sunrise times</a>, and creates a new daily event on my Google calendar.</p>
+<p><img src="darktimes_screenshot.png" alt="darktimes screenshot"></p>
+<p>Now, I see my window of sun time whenever I look at my calendar. I also set the event to give me a notification about an hour before sundown.</p>
+<p>Since sunset and sunrise are at different times each day, the event starts and ends at a different time every day. It&rsquo;s triggered to run on a monthly basis.</p>
+<hr>
+<ol>
+<li>I trigger it to run every month, mostly because it seemed like a decent compromise between running every day, and running once a year (or once for all time). There&rsquo;s no specific reason to do it once a month.</li>
+<li>I didn&rsquo;t account for daylight savings yet, so currently I go and manually adjust the timezone offset twice a year.</li>
+<li>This was my first time using an API outside of work - it was easier than I expected, and fun!</li>
+</ol>
+
+</article>
+
+                
+    
+    
+        © 2025 王宇萌
+    
+
+
+            </div>
+        </main>
+    </body>
+</html>

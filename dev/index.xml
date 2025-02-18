@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>王宇萌</title>
+    <title>software on 王宇萌</title>
     <link>http://localhost:1313/dev/</link>
-    <description>Recent content on 王宇萌</description>
+    <description>Recent content in software on 王宇萌</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>darktimes calendar</title>
+      <link>http://localhost:1313/dev/darktimes_calendar/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/dev/darktimes_calendar/</guid>
+      <description>a daily calendar event based on sunset and sunrise</description>
+    </item>
   </channel>
 </rss>
