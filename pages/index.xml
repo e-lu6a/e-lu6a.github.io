@@ -6,7 +6,21 @@
     <description>Recent content in pages on  </description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://e-lu6a.github.io/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>a course of study</title>
+      <link>https://e-lu6a.github.io/pages/a_course_of_study/</link>
+      <pubDate>Sun, 11 Oct 2026 00:00:00 +0000</pubDate>
+      <guid>https://e-lu6a.github.io/pages/a_course_of_study/</guid>
+      <description>inspired by A&amp;rsquo;s RBS club, &lt;br/&gt;and all the women who have ever fallen in love with the endless depths</description>
+    </item>
+    <item>
+      <title>darktimes calendar</title>
+      <link>https://e-lu6a.github.io/pages/darktimes_calendar/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0800</pubDate>
+      <guid>https://e-lu6a.github.io/pages/darktimes_calendar/</guid>
+      <description>&lt;div class=&#34;band-main&#34;&gt;&#xA;  &lt;div class=&#34;main-flow&#34;&gt;&#xA;&lt;p&gt;see the impending dark times on your calendar, so you don&amp;rsquo;t forget about the sun&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;a super simple apps script that pulls sunrise + sunset times, and generates daily events.&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;the first project i ever made with AI&lt;/em&gt;&lt;br&gt;&#xA;&lt;img src=&#34;darktimes_screenshot.png&#34; alt=&#34;darktimes screenshot&#34;&gt;&lt;/p&gt;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;</description>
+    </item>
   </channel>
 </rss>

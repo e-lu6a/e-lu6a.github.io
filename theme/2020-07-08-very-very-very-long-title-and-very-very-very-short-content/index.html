@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. Nullam vestibulum metus eu purus malesuada, volutpat mattis leo facilisis.">  
+
+  <title>
+    
+      very very very long title and very very very short content
+    
+  </title>
+
+
+  <link rel="shortcut icon" type="image/svg+xml" href="/favicon.svg" />
+  
+  
+  
+  <link rel="stylesheet" href="/css/main.a9b5f86837bdde8f236d81610532095ea4604574b396fb53932713e4127393a017cd6d8f1168f9fdd28748bca301186c4296e40f51be0b91c8cd3074557a3585.css" integrity="sha512-qbX4aDe93o8jbYFhBTIJXqRgRXSzlvtTkycT5BJzk6AXzW2PEWj5/dKHSLyjARhsQpbkD1G&#43;C5HIzTB0VXo1hQ==" />
+  
+</head>
+<body a="light">
+        <main class="page-content" aria-label="Content">
+            <div class="site-preferences" hidden>
+    <button type="button" class="site-preferences-option is-active" aria-pressed="true" data-font="mono">mono</button>
+    <span class="site-preferences-sep">·</span>
+    <button type="button" class="site-preferences-option" aria-pressed="false" data-font="serif">serif</button>
+</div>
+<script>
+    (function () {
+        var KEY = "site-preferences-font";
+        var strip = document.querySelector(".site-preferences");
+        var buttons = document.querySelectorAll(".site-preferences-option");
+
+        function apply(font) {
+            document.body.classList.toggle("font-serif", font === "serif");
+            for (var i = 0; i < buttons.length; i++) {
+                var active = buttons[i].dataset.font === font;
+                buttons[i].classList.toggle("is-active", active);
+                buttons[i].setAttribute("aria-pressed", active ? "true" : "false");
+            }
+        }
+
+        
+        
+        var saved = "mono";
+        try { saved = localStorage.getItem(KEY) || "mono"; } catch (e) {}
+        apply(saved);
+        strip.hidden = false;
+
+        for (var i = 0; i < buttons.length; i++) {
+            buttons[i].addEventListener("click", function () {
+                try { localStorage.setItem(KEY, this.dataset.font); } catch (e) {}
+                apply(this.dataset.font);
+            });
+        }
+    })();
+</script>
+            <div class="w page-body">
+<nav class="page-nav">
+    <span class="page-nav-left">
+        <a href="/" aria-label="home">&#10038;</a>
+    </span>
+    
+    <span class="page-pager">
+        <a href="/theme/2020-07-07-overview-post/">←</a>
+        <a href="/theme/2020-07-08-language-tests/">→</a>
+    </span>
+    
+</nav>
+
+<h1>very very very long title and very very very short content</h1>
+<div>
+    
+    
+    
+    <time datetime="2020-07-08 00:00:00 &#43;0800 &#43;0800">jul 8, 2020</time>
+    
+</div>
+
+<article>
+    
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus. Nullam vestibulum metus eu purus malesuada, volutpat mattis leo facilisis.</p>
+
+</article>
+
+                <div class="footer-spacer"></div>
+<footer class="site-footer">
+    <p><a href="/">&#10038;</a> | <a href="/about">about</a></p>
+</footer>
+
+            </div>
+        </main>
+    </body>
+    <script src='/js/toc.js'></script>
+</html>
